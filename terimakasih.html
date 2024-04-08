@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+            font-family: 'Caveat', cursive;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .row {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 5px solid white;
+            border-radius: 10px;
+            background-color: #FCD1D1;
+            text-align: center;
+        }
+
+        .row img {
+            width: 50%;
+            border: 3px solid black;
+        }
+
+        h4 {
+            font-size: 5vw;
+            margin: 4px auto;
+            color: #161D6F;
+        }
+
+        h2 {
+            font-size: 3vw;
+            margin: 4px auto;
+            color: #161D6F;
+        }
+        #k1 {
+            background-color: #FCD1D1;
+        }
+
+        #k2 {
+            background-color: #AEE1E1
+        }
+
+        #k3 {
+            background-color: #D3E0DC;
+        }
+
+        #k4 {
+            background-color: #F9DFDC;
+        }
+
+        .animate {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            h4 {
+                font-size: 10px;
+            }
+            h2 {
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay>
+        <source src="https://audio.jukehost.co.uk/tnTeSPHOY8gMTmnTv8LNkhqrx89ghNDK" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="content">
+        <div class="row" id="k1">
+            <div>
+                <h2>Di click dulu biar gk sepi hehehe</h2>
+            </div>
+            <div>
+                <img id="myImage" src="https://i.ibb.co/JQ3YWtG/Whats-App-Image-2024-04-08-at-22-28-46-de6807f4.jpg" width="150" height="150">
+            </div>
+            <div>
+                <h2>klo udah scroll yuu</h2>
+            </div>
+        </div>
+        <script>
+            var img = document.getElementById('myImage');
+            img.addEventListener('click', function () {
+                img.classList.toggle('animate');
+            });
+        </script>
+        <div class="row" id="k2">
+            <h4> Hallo kamuuu </h4>
+        </div>
+        <div class="row" id="k3">
+            <h4> Minal aidin wal faidzin, Ayang Rere </h4>
+        </div>
+        <div class="row" id="k4">
+            <h4> Iqbal bersyukur punya pacar kayak kamu </h4>
+        </div>
+        <div class="row" id="k1">
+            <h4> Maaf selama ini kalo selama ini iqbal buat kamu marah dan kesal </h4>
+        </div>
+        <div class="row" id="k2">
+            <h4> Sehabis ini kuharap kita sama-sama jadi pribadi yang lebih baik lagi </h4>
+        </div>
+        <div class="row" id="k3">
+            <h4> Mohon maaf lahir dan batin </h4>
+        </div>
+        <div class="row" id="k4">
+            <h4> Dan mohon kerja samanya ya ay hehe...</h4>
+        </div>
+        <div class="row" id="k4">
+    
